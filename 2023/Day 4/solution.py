@@ -1,5 +1,8 @@
-class Solution:
+#
+#   Day 4: Scratchcards
+#
 
+class Solution:
     @staticmethod
     def part_one(lines: list[str]):
         points = 0
@@ -9,7 +12,7 @@ class Solution:
             yours = set(yours.split())
 
             """
-            using maps: 
+            using data: 
             winning, yours = map(set, map(str.split, line.split(':')[1].split('|')))
                                     OR   
             winning, yours = map(lambda n: set(n.split()), line.split(':')[1].split('|'))
