@@ -1,3 +1,5 @@
+# Day 1: Trebuchet?!
+
 def main():
     sol = 0
     with open('input.txt', 'r') as file:

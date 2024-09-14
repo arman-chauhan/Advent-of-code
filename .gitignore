@@ -1,2 +1,4 @@
 .idea
-2023/.idea
+.vscode
+.venv
+.DS_Store
